@@ -28,19 +28,6 @@ GitHub Actions → Docker Hub → Kubernetes (Kind) → Helm Deployment
 5. Application is deployed using Helm
 6. Deployment is verified using `kubectl`
 
-## 📦 Docker Image
-```text
-mahrufdeen/cnf-app:latest
-```
-
-## 📁 Project Structure
-```text
-app/                  # Mock CNF application (Flask)
-helm/                 # Helm chart for Kubernetes deployment
-.github/workflows/    # CI/CD pipeline definition
-README.md             # Project documentation
-```
-
 ## ☸️ Kubernetes Deployment (Manual Test)
 
 ```bash
