@@ -1,5 +1,5 @@
 # 🚀 CNF CI/CD Pipeline (Cloud-Native Telecom DevOps Project)
-![CI](https://github.com/mahrufdeen/cnf-ci-cd-pipeline/actions/workflows/cicd.yaml/badge.svg)
+![CI](https://github.com/mahrufdeen/cnf-cicd-pipeline/actions/workflows/cicd.yaml/badge.svg)
 
 ## 👤 Author
 **Moruf Kelani**
