@@ -41,32 +41,12 @@ helm/                 # Helm chart for Kubernetes deployment
 README.md             # Project documentation
 ```
 
-## ▶️ Run Locally
-
-```bash
-cd app
-docker build -t cnf-app .
-docker run -p 8080:8080 cnf-app
-```
-
-Open:
-http://localhost:8080
-
 ## ☸️ Kubernetes Deployment (Manual Test)
 
 ```bash
 kind create cluster
 helm install cnf-app ./helm/cnf-app
 kubectl get pods
-```
-
-## 📊 Sample Output
-
-```json
-{
-  "service": "Mock CNF",
-  "status": "running"
-}
 ```
 
 ## 🚀 Key Features
@@ -78,10 +58,7 @@ kubectl get pods
 
 ## 📸 Screenshots
 
-*Add screenshots of:*
-
-* GitHub Actions pipeline success
-* Running pods (`kubectl get pods`)
+<img width="248" height="402" alt="image" src="https://github.com/user-attachments/assets/fbcaac67-f336-411c-97a2-45d2e2c61d1b" />
 
 ## 🔮 Future Improvements
 * GitOps integration (ArgoCD)
