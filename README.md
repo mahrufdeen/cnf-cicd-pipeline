@@ -28,14 +28,6 @@ GitHub Actions → Docker Hub → Kubernetes (Kind) → Helm Deployment
 5. Application is deployed using Helm
 6. Deployment is verified using `kubectl`
 
-## ☸️ Kubernetes Deployment (Manual Test)
-
-```bash
-kind create cluster
-helm install cnf-app ./helm/cnf-app
-kubectl get pods
-```
-
 ## 🚀 Key Features
 * ✅ End-to-end CI/CD pipeline
 * ✅ Docker Hub integration
@@ -46,12 +38,6 @@ kubectl get pods
 ## 📸 Screenshots
 
 <img width="248" height="402" alt="image" src="https://github.com/user-attachments/assets/fbcaac67-f336-411c-97a2-45d2e2c61d1b" />
-
-## 🔮 Future Improvements
-* GitOps integration (ArgoCD)
-* Prometheus & Grafana monitoring
-* CNF log analysis & RCA automation
-* Multi-environment deployment (dev/stage/prod)
 
 ## 📈 Use Case
 This project reflects real-world telecom scenarios where **Packet Core network functions are deployed as cloud-native workloads**, enabling scalability, automation, and reliability.
